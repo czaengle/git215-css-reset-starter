@@ -17,7 +17,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -381,20 +380,20 @@ footer{
     background-color: var(--dk-gray);
     color: var(--light-gray);
     padding: 3rem 0;
-    margin: 0;
 }
 
 footer section{
     width: 340px;
-    margin: 3rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0 0.5rem;
     padding: 1rem;
+    align-items: center;
 }
 
 footer h2{
     grid-column: 1/-1;
+    text-align: center;
 }
 
 footer img{
@@ -409,6 +408,7 @@ footer a{
     padding: 0;
     margin: 14px 6px;
     border-radius: 50%;
+    align-items: center;
 }
 
 footer a:hover{
